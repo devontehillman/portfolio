@@ -1,0 +1,38 @@
+[
+    {
+    "id": 1,
+    "image":"./images/page1.png",
+    "pageImage":"./images/webpage1.png",
+    "title":"Are We There Yet?",
+    "description":"A full stack React app designed for instructors in the digital classroom to gauge the comprehension of their students in an anonymous fashion, in real time.",
+    "gitRepo":"https://github.com/devontehillman/are-we-there-yet",
+    "livePage":"https://a-w-t-y.herokuapp.com"
+    },
+    {
+        "id": 2,
+        "image":"./images/page2.png",
+        "pageImage":"./images/webpage1.png",
+        "title":"BITRate",
+        "description":"Group project to created a bitcoin currency converter which takes the current value of bitcoin in usd and converts it to bitcoin in the user's selected currency.",
+        "gitRepo":"https://github.com/devontehillman/Bitcoin-Curreny-Converter",
+        "livePage":"https://devontehillman.github.io/Bitcoin-Curreny-Converter/"
+    },
+    {
+    "id": 3,
+    "image":"./images/page3.png",
+    "pageImage":"./images/webpage3.png",
+    "title":"Phenomenal Kickz",
+    "description":"I created this page as personal portfolio for my shoe customizing and collecting hobby using bootstrap. This site hasa links to my instagram as well as photos of shoes that I enjoyed working on.",
+    "gitRepo":"https://github.com/devontehillman/portfolio",
+    "livePage":"https://devontehillman.github.io/portfolio/"
+    },
+    {
+        "id": 4,
+        "image":"./images/page4.png",
+        "pageImage":"./images/webpage4.png",
+        "title":"Battle Creek YMCA Refactor",
+        "description":"This is a refactor of the battle Creek YMCA's Word press webpage.",
+        "gitRepo":"https://drive.google.com/file/d/1p74No_5xk4rmk80CX2ICMTOeYk5YtLlT/view",
+        "livePage":"https://xd.adobe.com/view/b40892b4-8d8e-42ea-ba96-0d176194f1c8-e15b/"
+        }
+]
