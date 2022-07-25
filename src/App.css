@@ -1,7 +1,7 @@
 p {
 font-size: 20px;
 }
-
+/* when the screen is smaller than 992px */
 @media (max-width: 992px) {
 #sideNav {
   padding-left: 1rem;
@@ -34,7 +34,7 @@ padding: 1rem;
 
 }
 }
-/* when the screen is larger that 992px */
+/* when the screen is larger than 992px */
 @media (min-width: 992px) {
   #sideNav {
     padding-left: 0;
@@ -105,6 +105,9 @@ padding: 1rem;
   max-width: 75rem;
   height:100vh;
 }
-  
+
+#nametitle {
+display: none
+}
 
 }
