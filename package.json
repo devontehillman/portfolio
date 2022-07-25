@@ -1,5 +1,5 @@
 {
-  "homepage": "http://devontehillman.github.io/portfolio/",
+  "homepage": "https://devontehillman.github.io/portfolio/",
   "name": "portfolio3.0",
   "version": "0.1.0",
   "private": true,
@@ -23,7 +23,7 @@
   "scripts": {
     "start": "react-scripts start",
     "predeploy": "npm run build",
-    "deploy":"gh-pages -d build",
+    "deploy":"echo 'devontehillman.com' > ./build/CNAME && gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
