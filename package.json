@@ -23,7 +23,7 @@
   "scripts": {
     "start": "react-scripts start",
     "predeploy": "npm run build",
-    "deploy":"echo 'devontehillman.com' > ./build/CNAME && -b gh-page -d build",
+    "deploy":"echo 'devontehillman.com' > ./build/CNAME && gh-pages -b master -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
