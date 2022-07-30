@@ -6,6 +6,12 @@ export default class About extends Component {
     render() {
         return (
             <div className="about-section">
+                <img
+                className="img-fluid img-profile-sm @include media-breakpoint-up(sm) { ... } rounded-circle mx-auto mb-2"
+                src="images/profile2.jpg"
+                alt="..."
+                style={{boxShadow: "0px 1px 20px 7px rgba(0,0,0,0.3)"}}
+                />
                 <h1 id="nametitle" style= {{id:'nametitle',fontFamily: 'poppins',fontWeight: 800, fontSize:'60px'}}>Devonte Hillman</h1>
                 <p style= {{fontFamily: 'poppins'}}>My desire to program started in my first engineering class in college when we used C to create a self scoring Arduino robot. Since then I have attended a bootcamp to lean Full stack web development. In the future I plan to use my knowledge to work in the industry of machine learning and the internet of things because I have a strong desire to use computer programming to help automate everyday processes.</p>
                 <div className="socials">

@@ -1,6 +1,10 @@
 p {
 font-size: 20px;
 }
+
+.img-profile-sm {
+  margin-top: 20px;
+}
 /* when the screen is smaller than 992px */
 @media (max-width: 992px) {
 #sideNav {
@@ -109,6 +113,9 @@ padding: 1rem;
   height:100vh;
 }
 
+.img-profile-sm {
+  display: none;
+}
 
 
 }
