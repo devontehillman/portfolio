@@ -13,7 +13,15 @@ export default class About extends Component {
                 style={{boxShadow: "0px 1px 20px 7px rgba(0,0,0,0.3)"}}
                 />
                 <h1 id="nametitle" style= {{id:'nametitle',fontFamily: 'poppins',fontWeight: 800, fontSize:'60px'}}>Devonte Hillman</h1>
-                <p style= {{fontFamily: 'poppins'}}>My desire to program started in my first engineering class in college when we used C to create a self scoring Arduino robot. Since then I have attended a bootcamp to lean Full stack web development. In the future I plan to use my knowledge to work in the industry of machine learning and the internet of things because I have a strong desire to use computer programming to help automate everyday processes.</p>
+                <p style= {{fontFamily: 'poppins'}}>
+                I am seeking a challenging software developer position where I can apply my foundational
+                knowledge of object-oriented programming, web development, and passion for creating
+                maintainable code. My career goals are focused on securing an internship that will allow me to
+                gain first-hand experience in what it’s like to contribute to a team of experienced developers. As
+                a current student pursuing a bachelor’s degree in computer science and a graduate of a 6-month
+                intensive web design program, I have acquired a range of technical and analytical skills that will
+                enable me to make valuable contributions.
+                </p>
                 <div className="socials">
                     <a href="https://github.com/devontehillman">
                         <FontAwesomeIcon className="socialIcon" color="Black" icon={['fab', 'github']} size="3x"/>
